@@ -24,10 +24,9 @@ jobs:
       - name: Install Tuist using Mise
         run: |
           mise install tuist@4.40.0
-          echo "$HOME/.local/share/mise/shims" >> $GITHUB_PATH
 
       - name: Verify Tuist Installation
-        run: tuist --version
+        run: tuist version
 
       - name: Set Tuist Token
         run: echo "TUIST_CONFIG_TOKEN=0194cb15-5644-7024-99d6-37fb733ae939" >> $GITHUB_ENV
