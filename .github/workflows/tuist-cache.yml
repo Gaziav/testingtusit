@@ -36,6 +36,8 @@ jobs:
           echo $CI
           echo "INSTALL"
           tuist install
+          echo "CACHE"
+          tuist cache
           echo "GENERATE"
           tuist generate
           echo "BUILD 3"
