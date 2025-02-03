@@ -31,7 +31,5 @@ jobs:
       - name: Tuist cache
         run: |
           export TUIST_CONFIG_TOKEN=tuist_0194cb73-0f3a-7067-ae79-231176a07076_h8hM/0vdGWCeJGdlPobpPYkCEx8=
-
           echo $CI
-          tuist install
           tuist cache
