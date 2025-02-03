@@ -7,62 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		08918C364B95523F36A4E837 /* ExampleAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFBE5C9A9D1AAA1FABB838EF /* ExampleAppApp.swift */; };
-		255912EF3F80132D9C6F18BA /* Mcok.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837094E384F1808BA9522247 /* Mcok.swift */; };
-		277613D6CB26596BB518819D /* MyLibraryAPI.xcframework in Static XCFramework Dependencies */ = {isa = PBXBuildFile; fileRef = 05231FE65D1901C163B8C0D0 /* MyLibraryAPI.xcframework */; };
-		A328E723F606B6162F1A61B2 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486A8EA87C2D018CB69C076D /* Test.swift */; };
-		AE3772560301B016673DE17A /* MyLibraryAPI2.xcframework in Static XCFramework Dependencies */ = {isa = PBXBuildFile; fileRef = C800A8CEC0EFDA771B892ACE /* MyLibraryAPI2.xcframework */; };
-		BAFD5F2D9B309360F158419F /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887B8AE99FC9AE0312B48FD9 /* Test.swift */; };
-		E048D116A5A6F815B36DC3DE /* Alamofire.xcframework in Static XCFramework Dependencies */ = {isa = PBXBuildFile; fileRef = 391819563DD94606D6EB853B /* Alamofire.xcframework */; };
-		E08DC20918D6C065A6EC16BA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0358006C67E33E38AE5FD0BB /* ContentView.swift */; };
-		E6C13720F98E0B3CB329D6B2 /* MyLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C8CDDA0705A6C1CCCFF23A7 /* MyLibrary.swift */; };
+		0C4B85D8D234089F41AF44BA /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A0DFD717EB4D846B527E2A /* test.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		08EA7D2E479BFF66236DCD27 /* Static XCFramework Dependencies */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 8;
-			dstPath = _StaticXCFrameworkDependencies/MyLibraryTwo;
-			dstSubfolderSpec = 16;
-			files = (
-				277613D6CB26596BB518819D /* MyLibraryAPI.xcframework in Static XCFramework Dependencies */,
-				AE3772560301B016673DE17A /* MyLibraryAPI2.xcframework in Static XCFramework Dependencies */,
-				E048D116A5A6F815B36DC3DE /* Alamofire.xcframework in Static XCFramework Dependencies */,
-			);
-			name = "Static XCFramework Dependencies";
-			runOnlyForDeploymentPostprocessing = 1;
-		};
-		0FACDADB7CF5E5BAEA680492 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9043D9D6CDB6F85E44E5B9D6 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AD21AF2795FC44A3BBE76EFD /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E6B795E23FB6513D631B68C0 /* Embed Frameworks */ = {
+		B0D5407246533F39B3882DC5 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
@@ -75,46 +24,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		0358006C67E33E38AE5FD0BB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		05231FE65D1901C163B8C0D0 /* MyLibraryAPI.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = MyLibraryAPI.xcframework; path = /Users/giskhakov/.cache/tuist/Binaries/a619515b7c635881de341e6e3f460958/MyLibraryAPI.xcframework; sourceTree = "<absolute>"; };
-		1C8CDDA0705A6C1CCCFF23A7 /* MyLibrary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyLibrary.swift; sourceTree = "<group>"; };
-		391819563DD94606D6EB853B /* Alamofire.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Alamofire.xcframework; path = /Users/giskhakov/.cache/tuist/Binaries/e4d4d99a675a8f5d0cec66dc33f6f688/Alamofire.xcframework; sourceTree = "<absolute>"; };
-		486A8EA87C2D018CB69C076D /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
-		5F17F9F9A0F074DFEBFC332F /* MyLibraryMocks-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "MyLibraryMocks-Info.plist"; sourceTree = "<group>"; };
-		837094E384F1808BA9522247 /* Mcok.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mcok.swift; sourceTree = "<group>"; };
-		887B8AE99FC9AE0312B48FD9 /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
-		98895EB0D8A7A7C2DE710750 /* MyLibraryExampleApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "MyLibraryExampleApp-Info.plist"; sourceTree = "<group>"; };
-		9BA345E3BA032E29B9F87397 /* MyLibraryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyLibraryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A05182163B70C166B655F088 /* libMyLibraryTwo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMyLibraryTwo.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		BFBE5C9A9D1AAA1FABB838EF /* ExampleAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleAppApp.swift; sourceTree = "<group>"; };
-		C800A8CEC0EFDA771B892ACE /* MyLibraryAPI2.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = MyLibraryAPI2.xcframework; path = /Users/giskhakov/.cache/tuist/Binaries/aad98a45fb1784cac3b9025aa7e9d5c2/MyLibraryAPI2.xcframework; sourceTree = "<absolute>"; };
-		EB43020549FFA5DB9ABFB597 /* MyLibraryExampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyLibraryExampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F3B8A002C5B637BB46AB8CD4 /* MyLibraryMocks.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyLibraryMocks.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		25984E9C7C42221D4589FBA6 /* MyLibraryAPI2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MyLibraryAPI2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		45A0DFD717EB4D846B527E2A /* test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2B8EE8C9C84E069F515FBC74 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9602B1B9B076343E96EF6339 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B135DA9116AA62FC8D022620 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DC932550D58DE7D95A6D7109 /* Frameworks */ = {
+		B0A944B4965D8DE31F2DE6E5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -124,88 +39,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1684FCCE265BD77086C0208B /* Mocks */ = {
-			isa = PBXGroup;
-			children = (
-				837094E384F1808BA9522247 /* Mcok.swift */,
-			);
-			path = Mocks;
-			sourceTree = "<group>";
-		};
 		24320E4C6A38A24DF9B36D0F /* Project */ = {
 			isa = PBXGroup;
 			children = (
-				73CF887B7A01329702278BF1 /* Derived */,
-				ACD1A460E633FB42ADBC4375 /* ExampleApp */,
-				1684FCCE265BD77086C0208B /* Mocks */,
-				4281053845155ECDBDFA94F3 /* MyLibraryTwo */,
-				8A91FA0B17FFE1F802FE4A8A /* Tests */,
+				B6BD94245AA368154A4BADCC /* MyLibraryAPI2 */,
 			);
 			name = Project;
-			sourceTree = "<group>";
-		};
-		399172B0E4E7A45008ED3305 /* InfoPlists */ = {
-			isa = PBXGroup;
-			children = (
-				98895EB0D8A7A7C2DE710750 /* MyLibraryExampleApp-Info.plist */,
-				5F17F9F9A0F074DFEBFC332F /* MyLibraryMocks-Info.plist */,
-			);
-			path = InfoPlists;
-			sourceTree = "<group>";
-		};
-		4281053845155ECDBDFA94F3 /* MyLibraryTwo */ = {
-			isa = PBXGroup;
-			children = (
-				1C8CDDA0705A6C1CCCFF23A7 /* MyLibrary.swift */,
-				486A8EA87C2D018CB69C076D /* Test.swift */,
-			);
-			path = MyLibraryTwo;
 			sourceTree = "<group>";
 		};
 		5598A130135F479102C95F12 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A05182163B70C166B655F088 /* libMyLibraryTwo.a */,
-				EB43020549FFA5DB9ABFB597 /* MyLibraryExampleApp.app */,
-				F3B8A002C5B637BB46AB8CD4 /* MyLibraryMocks.xctest */,
-				9BA345E3BA032E29B9F87397 /* MyLibraryTests.xctest */,
+				25984E9C7C42221D4589FBA6 /* MyLibraryAPI2.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		73CF887B7A01329702278BF1 /* Derived */ = {
+		B6BD94245AA368154A4BADCC /* MyLibraryAPI2 */ = {
 			isa = PBXGroup;
 			children = (
-				399172B0E4E7A45008ED3305 /* InfoPlists */,
+				45A0DFD717EB4D846B527E2A /* test.swift */,
 			);
-			path = Derived;
-			sourceTree = "<group>";
-		};
-		8A91FA0B17FFE1F802FE4A8A /* Tests */ = {
-			isa = PBXGroup;
-			children = (
-				887B8AE99FC9AE0312B48FD9 /* Test.swift */,
-			);
-			path = Tests;
-			sourceTree = "<group>";
-		};
-		ACD1A460E633FB42ADBC4375 /* ExampleApp */ = {
-			isa = PBXGroup;
-			children = (
-				0358006C67E33E38AE5FD0BB /* ContentView.swift */,
-				BFBE5C9A9D1AAA1FABB838EF /* ExampleAppApp.swift */,
-			);
-			path = ExampleApp;
-			sourceTree = "<group>";
-		};
-		CD987F53BB85578ECF30A618 /* Cache */ = {
-			isa = PBXGroup;
-			children = (
-				391819563DD94606D6EB853B /* Alamofire.xcframework */,
-				05231FE65D1901C163B8C0D0 /* MyLibraryAPI.xcframework */,
-				C800A8CEC0EFDA771B892ACE /* MyLibraryAPI2.xcframework */,
-			);
-			name = Cache;
+			path = MyLibraryAPI2;
 			sourceTree = "<group>";
 		};
 		D90F5B4C6936F61BA23F7976 = {
@@ -213,93 +68,31 @@
 			children = (
 				24320E4C6A38A24DF9B36D0F /* Project */,
 				5598A130135F479102C95F12 /* Products */,
-				CD987F53BB85578ECF30A618 /* Cache */,
 			);
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4000B5A4DE14F38D9B3849B3 /* MyLibraryTests */ = {
+		87782AF0EC6A0F011581B69B /* MyLibraryAPI2 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 555F7567C6A906B4E105A164 /* Build configuration list for PBXNativeTarget "MyLibraryTests" */;
+			buildConfigurationList = E909F2FF113BE32EFC7F18A0 /* Build configuration list for PBXNativeTarget "MyLibraryAPI2" */;
 			buildPhases = (
-				29951DE8E62C39A0F78EAB1B /* Sources */,
-				E232915A83E53041E4F226AF /* Resources */,
-				9602B1B9B076343E96EF6339 /* Frameworks */,
-				9043D9D6CDB6F85E44E5B9D6 /* Embed Frameworks */,
+				32154628199C6D8282AECE41 /* Sources */,
+				A13A8C422C13E5E4D669FB92 /* Resources */,
+				B0A944B4965D8DE31F2DE6E5 /* Frameworks */,
+				B0D5407246533F39B3882DC5 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = MyLibraryTests;
+			name = MyLibraryAPI2;
 			packageProductDependencies = (
 			);
-			productName = MyLibraryTests;
-			productReference = 9BA345E3BA032E29B9F87397 /* MyLibraryTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		5CCFA60A6CF4D901E6D46CAF /* MyLibraryTwo */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D1529D3BCB6F7A01E13D70FA /* Build configuration list for PBXNativeTarget "MyLibraryTwo" */;
-			buildPhases = (
-				8997A4CF183F240CE9ABAA52 /* Sources */,
-				4E4037A0288BF37C259BC158 /* Resources */,
-				2B8EE8C9C84E069F515FBC74 /* Frameworks */,
-				E6B795E23FB6513D631B68C0 /* Embed Frameworks */,
-				08EA7D2E479BFF66236DCD27 /* Static XCFramework Dependencies */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = MyLibraryTwo;
-			packageProductDependencies = (
-			);
-			productName = MyLibraryTwo;
-			productReference = A05182163B70C166B655F088 /* libMyLibraryTwo.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		9A5E1ED9EC4D9352A299EC64 /* MyLibraryMocks */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 54CB7541FDF5C9A2CCA9DBB8 /* Build configuration list for PBXNativeTarget "MyLibraryMocks" */;
-			buildPhases = (
-				34E57786C87CD0B6A08AE182 /* Sources */,
-				4BD24C18925794695B4ECED2 /* Resources */,
-				DC932550D58DE7D95A6D7109 /* Frameworks */,
-				AD21AF2795FC44A3BBE76EFD /* Embed Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = MyLibraryMocks;
-			packageProductDependencies = (
-			);
-			productName = MyLibraryMocks;
-			productReference = F3B8A002C5B637BB46AB8CD4 /* MyLibraryMocks.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		BFFC3E22A393532AB7CAA98B /* MyLibraryExampleApp */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D031AE253E1FF5693DC44537 /* Build configuration list for PBXNativeTarget "MyLibraryExampleApp" */;
-			buildPhases = (
-				E8DAE1CDB23656E005932C01 /* Sources */,
-				B68307D311A99A6F0A4B6142 /* Resources */,
-				B135DA9116AA62FC8D022620 /* Frameworks */,
-				0FACDADB7CF5E5BAEA680492 /* Embed Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = MyLibraryExampleApp;
-			packageProductDependencies = (
-			);
-			productName = MyLibraryExampleApp;
-			productReference = EB43020549FFA5DB9ABFB597 /* MyLibraryExampleApp.app */;
-			productType = "com.apple.product-type.application";
+			productName = MyLibraryAPI2;
+			productReference = 25984E9C7C42221D4589FBA6 /* MyLibraryAPI2.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
@@ -322,37 +115,13 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BFFC3E22A393532AB7CAA98B /* MyLibraryExampleApp */,
-				9A5E1ED9EC4D9352A299EC64 /* MyLibraryMocks */,
-				4000B5A4DE14F38D9B3849B3 /* MyLibraryTests */,
-				5CCFA60A6CF4D901E6D46CAF /* MyLibraryTwo */,
+				87782AF0EC6A0F011581B69B /* MyLibraryAPI2 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		4BD24C18925794695B4ECED2 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4E4037A0288BF37C259BC158 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B68307D311A99A6F0A4B6142 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E232915A83E53041E4F226AF /* Resources */ = {
+		A13A8C422C13E5E4D669FB92 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -362,43 +131,49 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		29951DE8E62C39A0F78EAB1B /* Sources */ = {
+		32154628199C6D8282AECE41 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BAFD5F2D9B309360F158419F /* Test.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		34E57786C87CD0B6A08AE182 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				255912EF3F80132D9C6F18BA /* Mcok.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8997A4CF183F240CE9ABAA52 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E6C13720F98E0B3CB329D6B2 /* MyLibrary.swift in Sources */,
-				A328E723F606B6162F1A61B2 /* Test.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E8DAE1CDB23656E005932C01 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E08DC20918D6C065A6EC16BA /* ContentView.swift in Sources */,
-				08918C364B95523F36A4E837 /* ExampleAppApp.swift in Sources */,
+				0C4B85D8D234089F41AF44BA /* test.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		21B152257BF014E14140BB5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				PRODUCT_BUNDLE_IDENTIFIER = "";
+				PRODUCT_NAME = MyLibraryAPI2;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		6741140D2FF432E6A85ED1E9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -448,7 +223,6 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SRCROOT = /Users/giskhakov/Documents/test/testingtuist/Packages/Features/MyLibrary2;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -509,17 +283,27 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SRCROOT = /Users/giskhakov/Documents/test/testingtuist/Packages/Features/MyLibrary2;
 			};
 			name = Debug;
 		};
-		8E4B4B49E67A26FA143745E9 /* Debug */ = {
+		E7EF522E4A5587568AFE394E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				OTHER_LDFLAGS = "-ObjC";
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
 				PRODUCT_BUNDLE_IDENTIFIER = "";
-				PRODUCT_NAME = MyLibraryTwo;
+				PRODUCT_NAME = MyLibraryAPI2;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SUPPORTS_MACCATALYST = NO;
@@ -533,177 +317,10 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		9D56FC1D4AC6F5796DE47223 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "";
-				PRODUCT_NAME = MyLibraryTests;
-				SDKROOT = iphoneos;
-				SUPPORTS_MACCATALYST = NO;
-				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
-				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-					"$(inherited)",
-					DEBUG,
-				);
-				SWIFT_COMPILATION_MODE = singlefile;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		A383D71C49C61CF0D59712A4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "";
-				PRODUCT_NAME = MyLibraryTests;
-				SDKROOT = iphoneos;
-				SUPPORTS_MACCATALYST = NO;
-				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
-				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		AF64F3169BAC794C8C0A1A1F /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "Derived/InfoPlists/MyLibraryExampleApp-Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.random.example;
-				PRODUCT_NAME = MyLibraryExampleApp;
-				SDKROOT = iphoneos;
-				SUPPORTS_MACCATALYST = NO;
-				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
-				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		BBD4AA72AC2472257AF68DC2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "Derived/InfoPlists/MyLibraryExampleApp-Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.random.example;
-				PRODUCT_NAME = MyLibraryExampleApp;
-				SDKROOT = iphoneos;
-				SUPPORTS_MACCATALYST = NO;
-				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
-				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-					"$(inherited)",
-					DEBUG,
-				);
-				SWIFT_COMPILATION_MODE = singlefile;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		CAE2A2D4C4A1B6E425C77827 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = "";
-				PRODUCT_NAME = MyLibraryTwo;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SUPPORTS_MACCATALYST = NO;
-				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
-				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		D646F9260DEE829994E890DB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				INFOPLIST_FILE = "Derived/InfoPlists/MyLibraryMocks-Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "";
-				PRODUCT_NAME = MyLibraryMocks;
-				SDKROOT = iphoneos;
-				SUPPORTS_MACCATALYST = NO;
-				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
-				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-					"$(inherited)",
-					DEBUG,
-				);
-				SWIFT_COMPILATION_MODE = singlefile;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		EEECCAF68D3D9C280A342533 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				INFOPLIST_FILE = "Derived/InfoPlists/MyLibraryMocks-Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "";
-				PRODUCT_NAME = MyLibraryMocks;
-				SDKROOT = iphoneos;
-				SUPPORTS_MACCATALYST = NO;
-				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
-				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
@@ -717,38 +334,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		54CB7541FDF5C9A2CCA9DBB8 /* Build configuration list for PBXNativeTarget "MyLibraryMocks" */ = {
+		E909F2FF113BE32EFC7F18A0 /* Build configuration list for PBXNativeTarget "MyLibraryAPI2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D646F9260DEE829994E890DB /* Debug */,
-				EEECCAF68D3D9C280A342533 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		555F7567C6A906B4E105A164 /* Build configuration list for PBXNativeTarget "MyLibraryTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9D56FC1D4AC6F5796DE47223 /* Debug */,
-				A383D71C49C61CF0D59712A4 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D031AE253E1FF5693DC44537 /* Build configuration list for PBXNativeTarget "MyLibraryExampleApp" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				BBD4AA72AC2472257AF68DC2 /* Debug */,
-				AF64F3169BAC794C8C0A1A1F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D1529D3BCB6F7A01E13D70FA /* Build configuration list for PBXNativeTarget "MyLibraryTwo" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				8E4B4B49E67A26FA143745E9 /* Debug */,
-				CAE2A2D4C4A1B6E425C77827 /* Release */,
+				E7EF522E4A5587568AFE394E /* Debug */,
+				21B152257BF014E14140BB5D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

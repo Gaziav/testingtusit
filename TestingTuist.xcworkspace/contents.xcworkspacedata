@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Workspace
    version = "1.0">
-   <FileRef
-      location = "group:TestingTuist.xcodeproj">
-   </FileRef>
    <Group
       location = "group:Packages"
       name = "Packages">
@@ -17,5 +14,12 @@
             location = "group:MyLibrary2/MyLibrary2.xcodeproj">
          </FileRef>
       </Group>
+   </Group>
+   <Group
+      location = "container:"
+      name = "Dependencies">
+      <FileRef
+         location = "group:Tuist/.build/tuist-derived/Alamofire/Alamofire.xcodeproj">
+      </FileRef>
    </Group>
 </Workspace>

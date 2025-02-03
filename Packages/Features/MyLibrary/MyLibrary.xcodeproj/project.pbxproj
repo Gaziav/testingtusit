@@ -7,17 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0859E719700981F8BAD5C772 /* ExampleAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E0CEEB77C088E2AC40C593E /* ExampleAppApp.swift */; };
-		23C29336E5426F749C60A010 /* Mcok.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A5A41AA9D3F2E579AF8D32C /* Mcok.swift */; };
-		92F3B27F972E20B0CD296EC3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB54836D9A9A8C571EC78A1 /* ContentView.swift */; };
-		A0B4CA9AB6BFB51E48F20576 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC47F9357C064173B624408 /* Test.swift */; };
-		B58DB12F55391E6E6D49BEB4 /* MyLibraryAPI.xcframework in Static XCFramework Dependencies */ = {isa = PBXBuildFile; fileRef = 29AAE56B1810ECD1721055F9 /* MyLibraryAPI.xcframework */; };
-		C8B4B8E719DBFD49A91353FA /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A41F6EA428B79BEA833AEC9 /* Test.swift */; };
-		CD2EF13932DBB55587581E48 /* MyLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97650603642AE8BCACB80157 /* MyLibrary.swift */; };
+		401D83E1DA52F832CA436703 /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C0BA0D6D450F1E5C9CB2BB /* test.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		10C9A10B7E64758818B81C91 /* Embed Frameworks */ = {
+		A278F2FF2CFC53BF21632756 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
@@ -26,90 +20,17 @@
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9FEB0C08FB77F77805CA2C79 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A02DB4F5CF055806BC231061 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AC93F5D485E7696EC5D6E914 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D8B80FA2C67F5143E6E5035D /* Static XCFramework Dependencies */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 8;
-			dstPath = _StaticXCFrameworkDependencies/MyLibrary;
-			dstSubfolderSpec = 16;
-			files = (
-				B58DB12F55391E6E6D49BEB4 /* MyLibraryAPI.xcframework in Static XCFramework Dependencies */,
-			);
-			name = "Static XCFramework Dependencies";
-			runOnlyForDeploymentPostprocessing = 1;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		0C872047384699ECFAB38224 /* MyLibraryMocks-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "MyLibraryMocks-Info.plist"; sourceTree = "<group>"; };
-		16B12B35AA2C5E7AC1CC6DAF /* MyLibraryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyLibraryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		29AAE56B1810ECD1721055F9 /* MyLibraryAPI.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = MyLibraryAPI.xcframework; path = /Users/giskhakov/.cache/tuist/Binaries/a619515b7c635881de341e6e3f460958/MyLibraryAPI.xcframework; sourceTree = "<absolute>"; };
-		2DB54836D9A9A8C571EC78A1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		386BA8BAB4BACA6C3E344217 /* MyLibraryMocks.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyLibraryMocks.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3E0CEEB77C088E2AC40C593E /* ExampleAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleAppApp.swift; sourceTree = "<group>"; };
-		5A5A41AA9D3F2E579AF8D32C /* Mcok.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mcok.swift; sourceTree = "<group>"; };
-		5FD43FCA87D2E68653106849 /* MyLibraryTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "MyLibraryTests-Info.plist"; sourceTree = "<group>"; };
-		7A41F6EA428B79BEA833AEC9 /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
-		7B7FAF94F11EEBCEF11B21D8 /* KekExampleApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "KekExampleApp-Info.plist"; sourceTree = "<group>"; };
-		96C2AB1A228E4558C5F2C7FF /* KekExampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KekExampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		97650603642AE8BCACB80157 /* MyLibrary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyLibrary.swift; sourceTree = "<group>"; };
-		DFC47F9357C064173B624408 /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
-		F6E59582CC6255D5E3B3DBBD /* libMyLibrary.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMyLibrary.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		1442EC1D244C2236AC81A420 /* MyLibraryAPI-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "MyLibraryAPI-Info.plist"; sourceTree = "<group>"; };
+		30C7C93C1614EB054F141F68 /* MyLibraryAPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MyLibraryAPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7C0BA0D6D450F1E5C9CB2BB /* test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		124F9BB68ABD958D4715ED73 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		52A4133899ADA387BF687E70 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		87E35A2D996C025E36F51897 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DF925C2B52B28EE69E32B5E4 /* Frameworks */ = {
+		D02D45997928DA7D23D159D3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -119,60 +40,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		054B19DF70F3489C871ED1A0 /* ExampleApp */ = {
-			isa = PBXGroup;
-			children = (
-				2DB54836D9A9A8C571EC78A1 /* ContentView.swift */,
-				3E0CEEB77C088E2AC40C593E /* ExampleAppApp.swift */,
-			);
-			path = ExampleApp;
-			sourceTree = "<group>";
-		};
-		093A974857D40945FCDBAB6A /* MyLibrary */ = {
-			isa = PBXGroup;
-			children = (
-				97650603642AE8BCACB80157 /* MyLibrary.swift */,
-				DFC47F9357C064173B624408 /* Test.swift */,
-			);
-			path = MyLibrary;
-			sourceTree = "<group>";
-		};
 		09A2CED3ED490360D6F10306 /* InfoPlists */ = {
 			isa = PBXGroup;
 			children = (
-				7B7FAF94F11EEBCEF11B21D8 /* KekExampleApp-Info.plist */,
-				0C872047384699ECFAB38224 /* MyLibraryMocks-Info.plist */,
-				5FD43FCA87D2E68653106849 /* MyLibraryTests-Info.plist */,
+				1442EC1D244C2236AC81A420 /* MyLibraryAPI-Info.plist */,
 			);
 			path = InfoPlists;
-			sourceTree = "<group>";
-		};
-		0B061341567FA81BB7175762 /* Tests */ = {
-			isa = PBXGroup;
-			children = (
-				7A41F6EA428B79BEA833AEC9 /* Test.swift */,
-			);
-			path = Tests;
 			sourceTree = "<group>";
 		};
 		169E12B501947436ED42779A /* Project */ = {
 			isa = PBXGroup;
 			children = (
 				A16314EE31B3000970501BC2 /* Derived */,
-				054B19DF70F3489C871ED1A0 /* ExampleApp */,
-				3BEC2FB9B481D5682C912E6B /* Mocks */,
-				093A974857D40945FCDBAB6A /* MyLibrary */,
-				0B061341567FA81BB7175762 /* Tests */,
+				5732206BA67175D9A6AC68AD /* MyLibraryAPI */,
 			);
 			name = Project;
-			sourceTree = "<group>";
-		};
-		3BEC2FB9B481D5682C912E6B /* Mocks */ = {
-			isa = PBXGroup;
-			children = (
-				5A5A41AA9D3F2E579AF8D32C /* Mcok.swift */,
-			);
-			path = Mocks;
 			sourceTree = "<group>";
 		};
 		3E2DEDEEF9CD00E637AA4B62 = {
@@ -180,25 +62,21 @@
 			children = (
 				169E12B501947436ED42779A /* Project */,
 				65D3E22F8FAD81E3B195061E /* Products */,
-				5E0C1271F5C10A4E55E71DCC /* Cache */,
 			);
 			sourceTree = "<group>";
 		};
-		5E0C1271F5C10A4E55E71DCC /* Cache */ = {
+		5732206BA67175D9A6AC68AD /* MyLibraryAPI */ = {
 			isa = PBXGroup;
 			children = (
-				29AAE56B1810ECD1721055F9 /* MyLibraryAPI.xcframework */,
+				B7C0BA0D6D450F1E5C9CB2BB /* test.swift */,
 			);
-			name = Cache;
+			path = MyLibraryAPI;
 			sourceTree = "<group>";
 		};
 		65D3E22F8FAD81E3B195061E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				96C2AB1A228E4558C5F2C7FF /* KekExampleApp.app */,
-				F6E59582CC6255D5E3B3DBBD /* libMyLibrary.a */,
-				386BA8BAB4BACA6C3E344217 /* MyLibraryMocks.xctest */,
-				16B12B35AA2C5E7AC1CC6DAF /* MyLibraryTests.xctest */,
+				30C7C93C1614EB054F141F68 /* MyLibraryAPI.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -214,86 +92,25 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		13979D9EB0CDD25EC1BE950D /* MyLibraryTests */ = {
+		83CFD12DCCB0B52DAB534861 /* MyLibraryAPI */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6266F23964310EF7465EEF75 /* Build configuration list for PBXNativeTarget "MyLibraryTests" */;
+			buildConfigurationList = FF1E24F4849FC62A3FECA7A9 /* Build configuration list for PBXNativeTarget "MyLibraryAPI" */;
 			buildPhases = (
-				5385A61BA126E2BE132A7DEE /* Sources */,
-				CEAEFD2EC3C1FFE4018FD367 /* Resources */,
-				87E35A2D996C025E36F51897 /* Frameworks */,
-				10C9A10B7E64758818B81C91 /* Embed Frameworks */,
+				5EA4E01AA4F371D1F5694F48 /* Sources */,
+				CE12ABE7291F8EF499707114 /* Resources */,
+				D02D45997928DA7D23D159D3 /* Frameworks */,
+				A278F2FF2CFC53BF21632756 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = MyLibraryTests;
+			name = MyLibraryAPI;
 			packageProductDependencies = (
 			);
-			productName = MyLibraryTests;
-			productReference = 16B12B35AA2C5E7AC1CC6DAF /* MyLibraryTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		6D0183589CFA6A267099447A /* MyLibraryMocks */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 21A91ED0294E6EFFBF70544E /* Build configuration list for PBXNativeTarget "MyLibraryMocks" */;
-			buildPhases = (
-				22BC37223C183F47E87EEE1E /* Sources */,
-				BB20924E7A79544CB3BDC1DD /* Resources */,
-				DF925C2B52B28EE69E32B5E4 /* Frameworks */,
-				AC93F5D485E7696EC5D6E914 /* Embed Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = MyLibraryMocks;
-			packageProductDependencies = (
-			);
-			productName = MyLibraryMocks;
-			productReference = 386BA8BAB4BACA6C3E344217 /* MyLibraryMocks.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		6DCB55F6E1887BF1D9AC05E5 /* MyLibrary */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 1FDEC9BBA72D1679389F7FAD /* Build configuration list for PBXNativeTarget "MyLibrary" */;
-			buildPhases = (
-				8FE470FAC3CAA1791F207236 /* Sources */,
-				87492AFE086A118DDBB0EF63 /* Resources */,
-				124F9BB68ABD958D4715ED73 /* Frameworks */,
-				9FEB0C08FB77F77805CA2C79 /* Embed Frameworks */,
-				D8B80FA2C67F5143E6E5035D /* Static XCFramework Dependencies */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = MyLibrary;
-			packageProductDependencies = (
-			);
-			productName = MyLibrary;
-			productReference = F6E59582CC6255D5E3B3DBBD /* libMyLibrary.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		AB95161442604BF63F61B8A3 /* KekExampleApp */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 3C1F6ACA24FAAF516CC91807 /* Build configuration list for PBXNativeTarget "KekExampleApp" */;
-			buildPhases = (
-				8B7C1BCBDF7BA0A77D0B0E49 /* Sources */,
-				0F4527B66334FB763AAD9802 /* Resources */,
-				52A4133899ADA387BF687E70 /* Frameworks */,
-				A02DB4F5CF055806BC231061 /* Embed Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = KekExampleApp;
-			packageProductDependencies = (
-			);
-			productName = KekExampleApp;
-			productReference = 96C2AB1A228E4558C5F2C7FF /* KekExampleApp.app */;
-			productType = "com.apple.product-type.application";
+			productName = MyLibraryAPI;
+			productReference = 30C7C93C1614EB054F141F68 /* MyLibraryAPI.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
@@ -316,37 +133,13 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AB95161442604BF63F61B8A3 /* KekExampleApp */,
-				6DCB55F6E1887BF1D9AC05E5 /* MyLibrary */,
-				6D0183589CFA6A267099447A /* MyLibraryMocks */,
-				13979D9EB0CDD25EC1BE950D /* MyLibraryTests */,
+				83CFD12DCCB0B52DAB534861 /* MyLibraryAPI */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		0F4527B66334FB763AAD9802 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		87492AFE086A118DDBB0EF63 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BB20924E7A79544CB3BDC1DD /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CEAEFD2EC3C1FFE4018FD367 /* Resources */ = {
+		CE12ABE7291F8EF499707114 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -356,164 +149,17 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		22BC37223C183F47E87EEE1E /* Sources */ = {
+		5EA4E01AA4F371D1F5694F48 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				23C29336E5426F749C60A010 /* Mcok.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5385A61BA126E2BE132A7DEE /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C8B4B8E719DBFD49A91353FA /* Test.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8B7C1BCBDF7BA0A77D0B0E49 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				92F3B27F972E20B0CD296EC3 /* ContentView.swift in Sources */,
-				0859E719700981F8BAD5C772 /* ExampleAppApp.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8FE470FAC3CAA1791F207236 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CD2EF13932DBB55587581E48 /* MyLibrary.swift in Sources */,
-				A0B4CA9AB6BFB51E48F20576 /* Test.swift in Sources */,
+				401D83E1DA52F832CA436703 /* test.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		12B816C7C3817080F94447D6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = "";
-				PRODUCT_NAME = MyLibrary;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SUPPORTS_MACCATALYST = NO;
-				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
-				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-					"$(inherited)",
-					DEBUG,
-				);
-				SWIFT_COMPILATION_MODE = singlefile;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		182ED21D71AE51E1E2E95E12 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "Derived/InfoPlists/KekExampleApp-Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.random.example;
-				PRODUCT_NAME = KekExampleApp;
-				SDKROOT = iphoneos;
-				SUPPORTS_MACCATALYST = NO;
-				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
-				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-					"$(inherited)",
-					DEBUG,
-				);
-				SWIFT_COMPILATION_MODE = singlefile;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		1C358AAB5AE2D028D8D1A073 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				INFOPLIST_FILE = "Derived/InfoPlists/MyLibraryTests-Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "";
-				PRODUCT_NAME = MyLibraryTests;
-				SDKROOT = iphoneos;
-				SUPPORTS_MACCATALYST = NO;
-				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
-				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		263E4D1B73247AB7ABBBFD61 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				INFOPLIST_FILE = "Derived/InfoPlists/MyLibraryMocks-Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "";
-				PRODUCT_NAME = MyLibraryMocks;
-				SDKROOT = iphoneos;
-				SUPPORTS_MACCATALYST = NO;
-				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
-				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		32718DC07C86EB830FB4248D /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "Derived/InfoPlists/KekExampleApp-Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.random.example;
-				PRODUCT_NAME = KekExampleApp;
-				SDKROOT = iphoneos;
-				SUPPORTS_MACCATALYST = NO;
-				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
-				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
 		58EF0CAB33C35FD4CBBCA3D7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -563,72 +209,29 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SRCROOT = /Users/giskhakov/Documents/test/testingtuist/Packages/Features/MyLibrary;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		D1995EA3249C6B0D4E5AAD1E /* Debug */ = {
+		8211941FB611611A27C77E37 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				INFOPLIST_FILE = "Derived/InfoPlists/MyLibraryTests-Info.plist";
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Derived/InfoPlists/MyLibraryAPI-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MACH_O_TYPE = staticlib;
 				PRODUCT_BUNDLE_IDENTIFIER = "";
-				PRODUCT_NAME = MyLibraryTests;
-				SDKROOT = iphoneos;
-				SUPPORTS_MACCATALYST = NO;
-				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
-				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-					"$(inherited)",
-					DEBUG,
-				);
-				SWIFT_COMPILATION_MODE = singlefile;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		E330B260428004BC29AFD11D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				INFOPLIST_FILE = "Derived/InfoPlists/MyLibraryMocks-Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "";
-				PRODUCT_NAME = MyLibraryMocks;
-				SDKROOT = iphoneos;
-				SUPPORTS_MACCATALYST = NO;
-				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
-				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-					"$(inherited)",
-					DEBUG,
-				);
-				SWIFT_COMPILATION_MODE = singlefile;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		E8A56E50FDCB268F3EFBCB09 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = "";
-				PRODUCT_NAME = MyLibrary;
+				PRODUCT_NAME = MyLibraryAPI;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SUPPORTS_MACCATALYST = NO;
@@ -638,8 +241,47 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		E1E6D09332F87315E5DEA93E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Derived/InfoPlists/MyLibraryAPI-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				PRODUCT_BUNDLE_IDENTIFIER = "";
+				PRODUCT_NAME = MyLibraryAPI;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+					"$(inherited)",
+					DEBUG,
+				);
+				SWIFT_COMPILATION_MODE = singlefile;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		F8BDF44E423938B2C48585BF /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -697,7 +339,6 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SRCROOT = /Users/giskhakov/Documents/test/testingtuist/Packages/Features/MyLibrary;
 			};
 			name = Debug;
 		};
@@ -713,38 +354,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1FDEC9BBA72D1679389F7FAD /* Build configuration list for PBXNativeTarget "MyLibrary" */ = {
+		FF1E24F4849FC62A3FECA7A9 /* Build configuration list for PBXNativeTarget "MyLibraryAPI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				12B816C7C3817080F94447D6 /* Debug */,
-				E8A56E50FDCB268F3EFBCB09 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		21A91ED0294E6EFFBF70544E /* Build configuration list for PBXNativeTarget "MyLibraryMocks" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E330B260428004BC29AFD11D /* Debug */,
-				263E4D1B73247AB7ABBBFD61 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		3C1F6ACA24FAAF516CC91807 /* Build configuration list for PBXNativeTarget "KekExampleApp" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				182ED21D71AE51E1E2E95E12 /* Debug */,
-				32718DC07C86EB830FB4248D /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		6266F23964310EF7465EEF75 /* Build configuration list for PBXNativeTarget "MyLibraryTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D1995EA3249C6B0D4E5AAD1E /* Debug */,
-				1C358AAB5AE2D028D8D1A073 /* Release */,
+				E1E6D09332F87315E5DEA93E /* Debug */,
+				8211941FB611611A27C77E37 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

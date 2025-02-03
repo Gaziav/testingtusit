@@ -14,9 +14,37 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "AB95161442604BF63F61B8A3"
-               BuildableName = "KekExampleApp.app"
-               BlueprintName = "KekExampleApp"
+               BlueprintIdentifier = "2A717419231F3C0B8A3E0F06"
+               BuildableName = "Alamofire.framework"
+               BlueprintName = "Alamofire"
+               ReferencedContainer = "container:Tuist/.build/tuist-derived/Alamofire/Alamofire.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "87EA802785C2DA6B58134CC2"
+               BuildableName = "Alamofire_Alamofire.bundle"
+               BlueprintName = "Alamofire_Alamofire"
+               ReferencedContainer = "container:Tuist/.build/tuist-derived/Alamofire/Alamofire.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "83CFD12DCCB0B52DAB534861"
+               BuildableName = "MyLibraryAPI.framework"
+               BlueprintName = "MyLibraryAPI"
                ReferencedContainer = "container:Packages/Features/MyLibrary/MyLibrary.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -28,122 +56,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "6DCB55F6E1887BF1D9AC05E5"
-               BuildableName = "libMyLibrary.a"
-               BlueprintName = "MyLibrary"
-               ReferencedContainer = "container:Packages/Features/MyLibrary/MyLibrary.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "BFFC3E22A393532AB7CAA98B"
-               BuildableName = "MyLibraryExampleApp.app"
-               BlueprintName = "MyLibraryExampleApp"
+               BlueprintIdentifier = "87782AF0EC6A0F011581B69B"
+               BuildableName = "MyLibraryAPI2.framework"
+               BlueprintName = "MyLibraryAPI2"
                ReferencedContainer = "container:Packages/Features/MyLibrary2/MyLibrary2.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "6D0183589CFA6A267099447A"
-               BuildableName = "MyLibraryMocks.xctest"
-               BlueprintName = "MyLibraryMocks"
-               ReferencedContainer = "container:Packages/Features/MyLibrary/MyLibrary.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "9A5E1ED9EC4D9352A299EC64"
-               BuildableName = "MyLibraryMocks.xctest"
-               BlueprintName = "MyLibraryMocks"
-               ReferencedContainer = "container:Packages/Features/MyLibrary2/MyLibrary2.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "13979D9EB0CDD25EC1BE950D"
-               BuildableName = "MyLibraryTests.xctest"
-               BlueprintName = "MyLibraryTests"
-               ReferencedContainer = "container:Packages/Features/MyLibrary/MyLibrary.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4000B5A4DE14F38D9B3849B3"
-               BuildableName = "MyLibraryTests.xctest"
-               BlueprintName = "MyLibraryTests"
-               ReferencedContainer = "container:Packages/Features/MyLibrary2/MyLibrary2.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "5CCFA60A6CF4D901E6D46CAF"
-               BuildableName = "libMyLibraryTwo.a"
-               BlueprintName = "MyLibraryTwo"
-               ReferencedContainer = "container:Packages/Features/MyLibrary2/MyLibrary2.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A2DD4DF1C1465929424C1E70"
-               BuildableName = "TestingTuist.app"
-               BlueprintName = "TestingTuist"
-               ReferencedContainer = "container:TestingTuist.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "2F504DD65367AAB600B87FF8"
-               BuildableName = "TestingTuistTests.xctest"
-               BlueprintName = "TestingTuistTests"
-               ReferencedContainer = "container:TestingTuist.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -154,61 +70,6 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO"
-            parallelizable = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "6D0183589CFA6A267099447A"
-               BuildableName = "MyLibraryMocks.xctest"
-               BlueprintName = "MyLibraryMocks"
-               ReferencedContainer = "container:Packages/Features/MyLibrary/MyLibrary.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO"
-            parallelizable = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "9A5E1ED9EC4D9352A299EC64"
-               BuildableName = "MyLibraryMocks.xctest"
-               BlueprintName = "MyLibraryMocks"
-               ReferencedContainer = "container:Packages/Features/MyLibrary2/MyLibrary2.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO"
-            parallelizable = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "13979D9EB0CDD25EC1BE950D"
-               BuildableName = "MyLibraryTests.xctest"
-               BlueprintName = "MyLibraryTests"
-               ReferencedContainer = "container:Packages/Features/MyLibrary/MyLibrary.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO"
-            parallelizable = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4000B5A4DE14F38D9B3849B3"
-               BuildableName = "MyLibraryTests.xctest"
-               BlueprintName = "MyLibraryTests"
-               ReferencedContainer = "container:Packages/Features/MyLibrary2/MyLibrary2.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO"
-            parallelizable = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "2F504DD65367AAB600B87FF8"
-               BuildableName = "TestingTuistTests.xctest"
-               BlueprintName = "TestingTuistTests"
-               ReferencedContainer = "container:TestingTuist.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction
@@ -221,16 +82,15 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "AB95161442604BF63F61B8A3"
-            BuildableName = "KekExampleApp.app"
-            BlueprintName = "KekExampleApp"
-            ReferencedContainer = "container:Packages/Features/MyLibrary/MyLibrary.xcodeproj">
+            BlueprintIdentifier = "2A717419231F3C0B8A3E0F06"
+            BuildableName = "Alamofire.framework"
+            BlueprintName = "Alamofire"
+            ReferencedContainer = "container:Tuist/.build/tuist-derived/Alamofire/Alamofire.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
@@ -238,16 +98,15 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "AB95161442604BF63F61B8A3"
-            BuildableName = "KekExampleApp.app"
-            BlueprintName = "KekExampleApp"
-            ReferencedContainer = "container:Packages/Features/MyLibrary/MyLibrary.xcodeproj">
+            BlueprintIdentifier = "2A717419231F3C0B8A3E0F06"
+            BuildableName = "Alamofire.framework"
+            BlueprintName = "Alamofire"
+            ReferencedContainer = "container:Tuist/.build/tuist-derived/Alamofire/Alamofire.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
