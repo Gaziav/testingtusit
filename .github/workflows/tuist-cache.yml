@@ -38,5 +38,5 @@ jobs:
           tuist install
           echo "GENERATE"
           tuist generate
-          echo "BUILD 2"
+          echo "BUILD 3"
           tuist build TestingTuist
