@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:TestingTuist.xcodeproj">
+   </FileRef>
+   <Group
+      location = "group:Packages"
+      name = "Packages">
+      <Group
+         location = "group:Features"
+         name = "Features">
+         <FileRef
+            location = "group:MyLibrary/MyLibrary.xcodeproj">
+         </FileRef>
+         <FileRef
+            location = "group:MyLibrary2/MyLibrary2.xcodeproj">
+         </FileRef>
+      </Group>
+   </Group>
+</Workspace>
