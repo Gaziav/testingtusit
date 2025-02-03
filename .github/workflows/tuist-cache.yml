@@ -15,10 +15,16 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Install Tuist
+      - name: Install Mise
         run: |
-          curl -Ls https://install.tuist.io | bash
-          echo "$HOME/.tuist/bin" >> $GITHUB_PATH
+          curl -fsSL https://mise.run | sh
+          echo "$HOME/.local/bin" >> $GITHUB_PATH
+          eval "$(mise activate bash)"
+
+      - name: Install Tuist using Mise
+        run: |
+          mise install tuist
+          echo "$HOME/.local/share/mise/shims" >> $GITHUB_PATH
 
       - name: Verify Tuist Installation
         run: tuist --version
