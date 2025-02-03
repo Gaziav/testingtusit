@@ -8,7 +8,7 @@ let project = Project(
 			destinations: .iOS,
 			product: .staticLibrary,
 			bundleId: "",
-			infoPlist: .none,
+			infoPlist: .default,
 			sources: ["./MyLibraryTwo/**"],
 			resources: [""],
 			dependencies: [
@@ -22,7 +22,7 @@ let project = Project(
 			destinations: .iOS,
 			product: .staticFramework,
 			bundleId: "",
-			infoPlist: .none,
+			infoPlist: .default,
 			sources: ["./MyLibraryAPI2/**"],
 			resources: [],
 			dependencies: []
@@ -42,7 +42,7 @@ let project = Project(
 			destinations: .iOS,
 			product: .unitTests,
 			bundleId: "",
-			infoPlist: .none,
+			infoPlist: .default,
 			sources: ["./Tests/**"],
 			resources: [],
 			dependencies: []
