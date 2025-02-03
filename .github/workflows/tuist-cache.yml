@@ -1,0 +1,32 @@
+name: Tuist Cache
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+
+jobs:
+  tuist-cache:
+    name: Run Tuist Cache
+    runs-on: macos-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install Tuist
+        run: |
+          curl -Ls https://install.tuist.io | bash
+          echo "$HOME/.tuist/bin" >> $GITHUB_PATH
+
+      - name: Verify Tuist Installation
+        run: tuist --version
+        
+	  - name: Set tuist token
+	    run: echo "TUIST_CONFIG_TOKEN=0194cb15-5644-7024-99d6-37fb733ae939" >> $GITHUB_ENV
+
+
+      - name: Warm Tuist Cache
+        run: tuist cache
+
