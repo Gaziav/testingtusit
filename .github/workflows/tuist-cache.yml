@@ -23,7 +23,7 @@ jobs:
 
       - name: Install Tuist using Mise
         run: |
-          mise install tuist
+          mise install tuist@4.40.0
           echo "$HOME/.local/share/mise/shims" >> $GITHUB_PATH
 
       - name: Verify Tuist Installation
