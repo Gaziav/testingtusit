@@ -31,6 +31,7 @@ jobs:
       - name: Tuist cache
         run: |
           echo $TUIST_CONFIG_TOKEN
+          echo $CI
           tuist install
           tuist cache
         env:
