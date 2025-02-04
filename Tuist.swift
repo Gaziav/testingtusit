@@ -1,10 +1,14 @@
-import ProjectDescription
-import Foundation
+@preconcurrency import ProjectDescription
 // testing remote cache
 
-private func isCi() -> String? {
-	guard let isCIEnv = ProcessInfo.processInfo.environment["ORGANIZATION_NAME"] else { fatalError() }
-	return isCIEnv
+
+private func organizationName() -> String? {
+	if case let .string(fullHandle) = Environment.organizationName {
+		return fullHandle
+	} else {
+		fatalError()
+	}
 }
 
-let tuist = Tuist(fullHandle: isCi())
+
+let tuist = Tuist(fullHandle: organizationName())
