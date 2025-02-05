@@ -28,7 +28,7 @@ let project = Project(
 			dependencies: []
 		),
 		.target(
-			name: "MyLibraryExampleApp",
+			name: "MyLibraryExampleApp2",
 			destinations: .iOS,
 			product: .app,
 			bundleId: "com.random.example",
@@ -38,7 +38,7 @@ let project = Project(
 			dependencies: []
 		),
 		.target(
-			name: "MyLibraryTests",
+			name: "MyLibraryTests2",
 			destinations: .iOS,
 			product: .unitTests,
 			bundleId: "",
@@ -48,7 +48,7 @@ let project = Project(
 			dependencies: []
 		),
 		.target(
-			name: "MyLibraryMocks",
+			name: "MyLibraryMocks2",
 			destinations: .iOS,
 			product: .unitTests,
 			bundleId: "",
