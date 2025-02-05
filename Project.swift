@@ -20,6 +20,7 @@ let project = Project(
             resources: ["TestingTuist/Resources/**"],
 			dependencies: [
 				.project(target: "MyLibraryAPI2", path: "./Packages/Features/MyLibrary2", status: .required, condition: nil),
+				.project(target: "MyLibraryAPI", path: "./Packages/Features/MyLibrary", status: .required, condition: nil),
 				.external(name: "PackageTesting", condition: nil),
 			]
 			
