@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A2DD4DF1C1465929424C1E70"
-               BuildableName = "TestingTuist.app"
-               BlueprintName = "TestingTuist"
-               ReferencedContainer = "container:TestingTuist.xcodeproj">
+               BlueprintIdentifier = "9A5E1ED9EC4D9352A299EC64"
+               BuildableName = "MyLibraryMocks.xctest"
+               BlueprintName = "MyLibraryMocks"
+               ReferencedContainer = "container:MyLibrary2.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,10 +33,10 @@
             parallelizable = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "2F504DD65367AAB600B87FF8"
-               BuildableName = "TestingTuistTests.xctest"
-               BlueprintName = "TestingTuistTests"
-               ReferencedContainer = "container:TestingTuist.xcodeproj">
+               BlueprintIdentifier = "9A5E1ED9EC4D9352A299EC64"
+               BuildableName = "MyLibraryMocks.xctest"
+               BlueprintName = "MyLibraryMocks"
+               ReferencedContainer = "container:MyLibrary2.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -51,16 +51,15 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "A2DD4DF1C1465929424C1E70"
-            BuildableName = "TestingTuist.app"
-            BlueprintName = "TestingTuist"
-            ReferencedContainer = "container:TestingTuist.xcodeproj">
+            BlueprintIdentifier = "9A5E1ED9EC4D9352A299EC64"
+            BuildableName = "MyLibraryMocks.xctest"
+            BlueprintName = "MyLibraryMocks"
+            ReferencedContainer = "container:MyLibrary2.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
@@ -68,16 +67,15 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "A2DD4DF1C1465929424C1E70"
-            BuildableName = "TestingTuist.app"
-            BlueprintName = "TestingTuist"
-            ReferencedContainer = "container:TestingTuist.xcodeproj">
+            BlueprintIdentifier = "9A5E1ED9EC4D9352A299EC64"
+            BuildableName = "MyLibraryMocks.xctest"
+            BlueprintName = "MyLibraryMocks"
+            ReferencedContainer = "container:MyLibrary2.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

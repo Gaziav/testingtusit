@@ -6,7 +6,7 @@ private func organizationName() -> String? {
 	if case let .string(fullHandle) = Environment.organizationName {
 		return fullHandle
 	} else {
-		fatalError()
+		return nil
 	}
 }
 
